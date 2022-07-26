@@ -1,8 +1,14 @@
 # Stock Market Prediction using Arima Model
-For this project, First I learned the Python Programming Language from the resources shared along with the Udemy course I had. Link:-https://www.udemy.com/course/100-days-of-code/learn/lecture/17837488?start=30#overview 
 
-While I got very comfortable with Python syntax and stuff, I started learning about various Python Libraries like Pandas, Numpy through the resources shared and other libraries like Matplotlib, seaborm and a bit of scikitlearn through the udemy course Link:- https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/learn/lecture/17833570?start=1#overview
+The motive of the project was to understand and implement an ARIMA model to predict the stock market prices from previous data.
+data used from Yahoo Finanace:
+1. Reliance data : https://finance.yahoo.com/quote/RELIANCE.BO/history?p=RELIANCE.BO
+2. ICICI data: https://finance.yahoo.com/quote/ICICIBANK.BO/history?p=ICICIBANK.BO
 
-Now after this I learned about the application of these libraries in EDA(Exploratory Data Analysis) of the data using pandas and matplotlib and seaborn. How we can get initial and useful insights the moment we get the data and how to deal with missing stuff in the raw data. Now I wish to start coding and do hands on , once further resources and instructions are shared.
+Now, I started the project by importing useful python libraries like Pandas, Numpy, Matplotlib, Yahoo Finance, etc. and then reading the data into the collab using read_csv.
 
+Then I started exploring the data to look for any null values and non numerical data, from which I got to know that the "Date" column is a string and I converted the index of the data into 
+the date column values in the timestamp object using the to_datetime function.
+
+Now we only needed the date attributes(which were converted as the index of the data) and the "Close" values in the data
 
