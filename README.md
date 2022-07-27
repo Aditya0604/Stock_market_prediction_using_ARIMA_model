@@ -35,7 +35,7 @@ So, I split the last 30 values of the data into test set and the remaining value
 
 Now I used the model to predict the values for the test data and used the following evaluation metrics like mean square error, mean absolute error, RMSE, mean avg. percentage error to see how our model has performed as well as I have also plot the graph of aur actual test values vs what our model predicted.
 
-However as the model was trained on the differenced data. The model also predicted differenced values, hence to convert the differenced value into the scale of original input data, I had to use the cummulative sum of values(which does the opposite effect of differencing). and add to it the first value of the data, so as to clear the NaN.
+However as the model was trained on the differenced data. The model also predicted differenced values, hence to convert the differenced value into the scale of original input data, I had to use the cummulative sum of values(which does the opposite effect of differencing). and add to it the first value of the data, so as to get the values in the original scale.
 
 # The End
 So I was successfully able to implement a ARIMA model that predicts the price of stocks based on previous data.
