@@ -5,6 +5,14 @@ data used from Yahoo Finanace:
 1. Reliance data : https://finance.yahoo.com/quote/RELIANCE.BO/history?p=RELIANCE.BO
 2. ICICI data: https://finance.yahoo.com/quote/ICICIBANK.BO/history?p=ICICIBANK.BO
 
+In the first week I learned about Python language
+then Numpy in the 2nd week
+then Pandas in hte 3rd week
+then exploratory data analysis in the 4th week and 
+time series analysis in the 5th and 6th week
+and I devoted the last two weeks for the project implementation and work.
+
+
 Now, I started the project by importing useful python libraries like Pandas, Numpy, Matplotlib, Yahoo Finance, etc. and then reading the data into the collab using read_csv.
 
 Then I started exploring the data to look for any null values and non numerical data, from which I got to know that the "Date" column is a string and I converted the index of the data into 
