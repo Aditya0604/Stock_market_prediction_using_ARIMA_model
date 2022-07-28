@@ -6,10 +6,15 @@ data used from Yahoo Finanace:
 2. ICICI data: https://finance.yahoo.com/quote/ICICIBANK.BO/history?p=ICICIBANK.BO
 
 In the first week I learned about Python language
+
 then Numpy in the 2nd week
+
 then Pandas in hte 3rd week
-then exploratory data analysis in the 4th week and 
+
+then exploratory data analysis in the 4th week and
+
 time series analysis in the 5th and 6th week
+
 and I devoted the last two weeks for the project implementation and work.
 
 
