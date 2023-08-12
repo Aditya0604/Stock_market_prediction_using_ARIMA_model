@@ -1,6 +1,9 @@
 # Stock Market Prediction using Arima Model
 
 The motive of the project was to understand and implement an ARIMA model(although I also implemented LSTM as well out of interest) to predict the stock market prices from previous data.
+
+LSTM tutorial followed:-https://www.youtube.com/watch?v=H6du_pfuznE&ab_channel=KrishNaik
+
 data used from Yahoo Finanace:
 1. Reliance data : https://finance.yahoo.com/quote/RELIANCE.BO/history?p=RELIANCE.BO
 2. ICICI data: https://finance.yahoo.com/quote/ICICIBANK.BO/history?p=ICICIBANK.BO
