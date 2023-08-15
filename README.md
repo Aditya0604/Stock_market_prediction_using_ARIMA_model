@@ -1,4 +1,4 @@
-# Stock Market Prediction using Arima Model
+# Stock Market Price Prediction 
 
 The motive of the project was to understand and implement an ARIMA model(although I also implemented LSTM as well out of interest) to predict the stock market prices from previous data.
 
